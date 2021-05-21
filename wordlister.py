@@ -53,3 +53,4 @@ le = int(input("Enter the length of words using:"))
 for i in itertools.product(k, repeat=le):
  x=(''.join(i))
  print (x)
+print("finished")
