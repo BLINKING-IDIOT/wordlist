@@ -1,6 +1,6 @@
 open terminal 
 type:
 apt install git
-type git clone https://github.com/BLINKING-IDIOT/wordlist
+git clone https://github.com/BLINKING-IDIOT/wordlist
 cd wordlist
 python3 wordlister.py
