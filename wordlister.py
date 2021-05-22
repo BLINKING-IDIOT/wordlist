@@ -49,8 +49,10 @@ k = 'abcdefghijklmnopqrstuvwxyz'
 y=input("Do you what to add numbers? (y/n)")
 if y=='y':
 	k+='1234567890'
-le = int(input("Enter the length of words using:"))
-for i in itertools.product(k, repeat=le):
- x=(''.join(i))
- print (x)
+le = int(input("Enter the minimum length of words :"))
+q = int(input("Enter the maximun length of words :"))
+for j in range(le,q+1):
+ for i in itertools.product(k, repeat=j):
+  x=(''.join(i))
+  print (x)
 print("finished")
