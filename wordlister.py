@@ -42,7 +42,7 @@ logo =f"""{y}
            █▄▄█▄▄█▄▄█▄▄█
            
          {g}by BLINKING-IDIOT
-      insta: @a.r.n_beatzzzz
+      insta: @arn_beatz
 """
 print(logo)
 k = 'abcdefghijklmnopqrstuvwxyz'
