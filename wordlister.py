@@ -47,7 +47,7 @@ logo =f"""{y}
 print(logo)
 k = 'abcdefghijklmnopqrstuvwxyz'
 y=input("Do you what to add numbers? (y/n)")
-if y=='y':
+if y.lower()=='y':
 	k+='1234567890'
 le = int(input("Enter the minimum length of words :"))
 q = int(input("Enter the maximun length of words :"))
